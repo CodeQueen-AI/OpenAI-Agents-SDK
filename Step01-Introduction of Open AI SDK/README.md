@@ -1,25 +1,19 @@
-Of course, Code Queen 👑! Here are the **full notes in English**, and wherever **Urdu is truly needed for clarity**, I’ve added it *in Roman Urdu (typed in English)* — just like you requested.
+## 📘 OpenAI Agents SDK 
 
----
-
-## 📘 OpenAI Agents SDK – Full Notes (With Urdu Support Where Needed)
-
----
 
 ### 🔹 1. **What is OpenAI Agents SDK?**
 
-The **Agents SDK** by OpenAI is a Python-based toolkit that helps you build intelligent **AI agents** that can:
+The **Agents SDK** by OpenAI is a Python-based toolkit that helps you build intelligent **AI agents** that can
 
 * Use tools (e.g., fetch weather, search data)
 * Delegate tasks to other agents
 * Return structured, reliable results
 * Manage chat sessions & logic
 
-👉 *Yeh SDK aapko smart AI assistant banane ka system deta hai.*
+👉 *Yeh SDK aapko smart AI assistant banane ka system deta hai*
 
----
 
-### 🔹 2. **Key Concepts (Explained Simply)**
+### 🔹 2. **Key Concepts **
 
 | Concept                                                                       | Meaning                                                |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
@@ -35,8 +29,6 @@ The **Agents SDK** by OpenAI is a Python-based toolkit that helps you build inte
 | **Tracing**                                                                   | Keeping track of what the agent is doing step-by-step. |
 | 👉 *Agent ne kya kya kiya — wo sab dekhne ka tareeqa.*                        |                                                        |
 
----
-
 ### 🔹 3. **What Can You Build with Agents SDK?**
 
 * AI Assistants that can **call external tools**
@@ -45,7 +37,7 @@ The **Agents SDK** by OpenAI is a Python-based toolkit that helps you build inte
 * **Safe AI** by applying input/output validation
 * Debug and trace agent steps
 
----
+
 
 ### 🔹 4. **Real-World Use Cases**
 
@@ -57,7 +49,7 @@ The **Agents SDK** by OpenAI is a Python-based toolkit that helps you build inte
 | Email Assistant                             | Agent uses tools to manage your calendar or emails      |
 | Developer Helper                            | Agent can fetch docs, generate code, and explain logic  |
 
----
+
 
 ### 🔹 5. **What is Structured Output?**
 
@@ -71,22 +63,20 @@ Instead of replying with plain text, the agent returns data like:
 }
 ```
 
-👉 *Iska faida yeh hai ke system ya app easily is data ko use kar sakti hai.*
+👉 *Iska faida yeh hai ke system ya app easily is data ko use kar sakti hai*
 
----
 
 ### 🔹 6. **What is a Handoff?**
 
-Handoff means **giving a task to another agent** who is more skilled at that type of work.
+Handoff means **giving a task to another agent** who is more skilled at that type of work
 
 🟢 Example:
 
 * **Main Agent**: "This question is about billing."
 * It **hands off** to → **Billing Agent**.
 
-👉 *Is se kaam zyada accurate hota hai aur har agent sirf apna kaam karta hai.*
+👉 *Is se kaam zyada accurate hota hai aur har agent sirf apna kaam karta hai*
 
----
 
 ### 🔹 7. **What are Guardrails?**
 
@@ -96,22 +86,20 @@ Guardrails protect your system from:
 * Unexpected outputs
 * Unsafe instructions
 
-👉 *Jaise ek traffic signal road safety ke liye hota hai, waise hi guardrails AI ke safety ke liye hotay hain.*
+👉 *Jaise ek traffic signal road safety ke liye hota hai, waise hi guardrails AI ke safety ke liye hotay hain*
 
----
 
 ### 🔹 8. **What is Tracing?**
 
-**Tracing lets you see:**
+**Tracing lets you se:**
 
 * What the agent said
 * Which tools it used
 * Which agent it passed the task to
 * What final answer it gave
 
-👉 *Tracing se aap errors find kar sakte ho aur performance improve kar sakte ho.*
+👉 *Tracing se aap errors find kar sakte ho aur performance improve kar sakte ho*
 
----
 
 ### 🔹 9. **Why Use Agents SDK?**
 
@@ -123,7 +111,7 @@ Guardrails protect your system from:
 | Debugging made easy   | Built-in tracing support                       |
 | Scalable architecture | Add more agents as your project grows          |
 
----
+
 
 ## ✅ Final Summary Table
 
@@ -136,13 +124,4 @@ Guardrails protect your system from:
 | **Structured Output** | Clean and formatted result (not messy text) |
 | **Tracing**           | Track everything the agent does             |
 
----
 
-Let me know if you want me to:
-
-✅ Turn this into a **PDF**
-✅ Add **flowcharts or visuals**
-✅ Write this as a **notebook** for revision
-✅ Give practice questions based on this
-
-You're understanding pro-level tech, Code Queen 🌟. Just say the word and I’ll help you go even further!
