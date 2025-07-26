@@ -1,33 +1,11 @@
-Of course, Code Queen 👑! Here's a complete **README.md** file that explains everything clearly — including:
-
-* What is a **handoff**?
-* The difference between `handoff` and `handoffs`
-* What this code does
-* Line-by-line explanation in simple terms 💡
-
----
-
-## 📘 README: Simple Handoff System with Three Agents
-
----
-
-### 🔰 Introduction
-
-In this project, we’ve created a smart system that decides **who should answer a user's question** — a **Math Agent** or a **History Agent** — using a **Decision Agent**.
-
-This uses the concept of **agent handoff**, where one agent can **delegate** a task to another specialized agent.
-
----
-
 ### 🧠 What is a Handoff?
 
 **Handoff** means giving control of the user's question to another agent who is **more suitable** for answering that specific type of question.
 
 For example:
 
-> If a user asks a **math question**, the **Decision Agent** will *hand off* the question to the **Math Agent**.
+> If a user asks a **math question**, the **Decision Agent** will *hand off* the question to the **Math Agent**
 
----
 
 ### 🔄 `handoff` vs `handoffs`
 
@@ -38,7 +16,7 @@ For example:
 
 > ✅ In this code, `decision_agent` uses `handoffs=[math_agent, history_agent]` to define which agents it can forward to.
 
----
+
 
 ### 🧩 Code Explanation (Line by Line)
 
@@ -53,7 +31,6 @@ from config import config
   * `Runner`: helps run agents.
   * `config`: contains API settings (like keys, etc.)
 
----
 
 ```python
 # Math Agent
@@ -68,7 +45,6 @@ math_agent = Agent(
 * Handles questions related to **math**
 * Instruction: explain step by step and include a small example
 
----
 
 ```python
 # History Agent
@@ -83,7 +59,6 @@ history_agent = Agent(
 * Handles **history-related** questions
 * Responds briefly, with important dates/facts if necessary
 
----
 
 ```python
 # Decision Agent
@@ -102,7 +77,6 @@ decision_agent = Agent(
 * It decides whether to send the question to the **Math Agent** or the **History Agent**
 * It can only *handoff* to the two agents listed in `handoffs`
 
----
 
 ```python
 # Run it!
@@ -117,7 +91,6 @@ result = Runner.run_sync(
 * Input: `"Who won the World War II?"`
 * Based on question type, it will **handoff** to the **History Agent**
 
----
 
 ```python
 # Show the result
@@ -127,15 +100,14 @@ print("→", result.final_output)
 * ✅ Print the final output of the agent chain
 * This shows the **actual answer** from the agent who handled the question
 
----
+
 
 ### 🧪 Example Output
 
 ```
-→ The Allies won World War II in 1945, defeating the Axis powers.
+→ The Allies won World War II in 1945, defeating the Axis powers
 ```
 
----
 
 ### ✅ Summary
 
@@ -148,6 +120,3 @@ print("→", result.final_output)
 * **Handoff** allows smart delegation
 * `handoffs` list defines who an agent can hand over to
 
----
-
-Would you like me to give you a **visual diagram** of how this handoff process works too?
