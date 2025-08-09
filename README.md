@@ -22,3 +22,18 @@
 
 🔷 **Dynamic Instructions** – Changing an agent’s instructions while it’s working
 
+🔷 **Manual Routing** – Manually choosing which agent handles a task
+
+🔷 **Guardrails** – Rules that keep the agent’s behavior safe and correct
+
+🔷 **Agent Classes** – Blueprints to create different types of agents
+
+🔷 **Agent Parallel** – Running many agents at the same time
+
+🔷 **Agent Parameters** – Settings that control how an agent works
+
+🔷 **Output Types** – The format of the agent’s answer (text, JSON, etc)
+
+🔷 **Agent Events** – Important moments when the agent does something
+
+🔷 **Lifecycle Hooks** – Functions that run automatically at key times during an agent’s work
