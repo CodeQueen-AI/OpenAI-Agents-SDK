@@ -22,6 +22,3 @@
 
 🔷 **Dynamic Instructions** – Changing an agent’s instructions while it’s working
 
----
-
-If you want, I can now make this **color-coded with short examples** so you’ll remember them even faster.
