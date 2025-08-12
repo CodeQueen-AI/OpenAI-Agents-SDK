@@ -80,13 +80,3 @@ You’ll see the response on your terminal like:
 `"The weather in Karachi is hot and humid today"`
 
 
-
-### 🗂 Project Structure Example
-
-```
-📁 project-folder/
-│
-├── config.py             # Your config file (contains model/API settings)
-├── main.py               # Your main agent code 
-└── README.md             # This guide
-```
