@@ -12,7 +12,7 @@
 * 🔹 **Clarity** — Make results easier to read or process.
 * 🔹 **Control** — Decide exactly how the response should be structured
 
-* 
+  
 ### **3. Common Output Types**
 
 1. **Text** → Normal plain text output.
@@ -43,3 +43,4 @@
 
 * Output Types = **Different ways for an agent to return its results**.
 * Choose based on whether the output is for humans, other programs, or real-time display
+
