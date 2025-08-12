@@ -1,8 +1,4 @@
-Zaroor Code Queen 👑! Aao step by step **reusable tool** ka concept deeply samajhtay hain — simple language mein, English + Urdu dono mein:
-
----
-
-## 🔁 **Reusable Tool kya hota hai?**
+## 🔁 **What is Reusable Tool?**
 
 **English:**
 A reusable tool is a function that is created once and can be used by multiple agents without rewriting it.
@@ -10,23 +6,21 @@ A reusable tool is a function that is created once and can be used by multiple a
 **Urdu:**
 Reusable tool aik aisi function hoti hai jo sirf aik dafa banai jati hai, lekin use kai agents dobara-dobara istemal kar sakte hain — baar baar likhne ki zarurat nahi hoti.
 
----
 
-## 📌 **Why do we use reusable tools? (Q kyu banate hain?)**
+## 📌 **Why do we use reusable tools?**
 
 1. ✅ **Code reuse** – Ek hi tool ko multiple agents ya situations mein use kar sakte hain.
 2. ✅ **Maintainable code** – Agar function mein koi change karna ho to sirf aik jaga update karna hota hai.
 3. ✅ **Less duplication** – Har agent ke liye alag function likhne ki zarurat nahi.
-4. ✅ **Consistency** – Sab agents same tarah se kaam karte hain, results consistent hotay hain.
+4. ✅ **Consistency** – Sab agents same tarah se kaam karte hain, results consistent hotay hain
 
----
 
 ## 📆 **Kab banate hain reusable tool?**
 
 **Jab ek hi function ko kai agents ya projects mein use karna ho.**
 Jaise: greeting, calculation, formatting, etc.
 
----
+
 
 ## 🧠 **Kaise banate hain reusable tool?**
 
@@ -34,9 +28,8 @@ Jaise: greeting, calculation, formatting, etc.
 2. Function define karo with clear input/output.
 3. Us function ko multiple agents mein `tools=[...]` ke andar include karo.
 
----
 
-## 🔍 **Code Explanation: Reusable Tool Example**
+## 🔍 **Code Explanation**
 
 ```python
 from agents import Agent, Runner , function_tool
@@ -48,7 +41,6 @@ import asyncio
 * 🛠 `config` is used to run the agent properly.
 * 🔁 `asyncio` for running the agents asynchronously (ek ke baad ek properly run karein).
 
----
 
 ### ✅ Reusable Tool Definition
 
@@ -64,7 +56,6 @@ def greet(name: str) -> str:
 * Input: `name`
   Output: Greeting string
 
----
 
 ### ✅ Agent 1: GreetBot
 
@@ -77,9 +68,9 @@ agent1 = Agent(
 ```
 
 * **Agent1** ka naam GreetBot hai.
-* Iska kaam sirf greet karna hai using `greet` tool.
+* Iska kaam sirf greet karna hai using `greet` tool
 
----
+  
 
 ### ✅ Agent 2: WelcomeBot
 
@@ -91,10 +82,9 @@ agent2 = Agent(
 )
 ```
 
-* **Agent2** bhi same `greet` tool use karta hai.
-* Dono agents alag hain, **but tool same** hai ✅
+* **Agent2** bhi same `greet` tool use karta hai
+* Dono agents alag hain, **but tool same** hai 
 
----
 
 ### ✅ Runner: Run both agents
 
@@ -131,9 +121,9 @@ Agent 2 Output: Hello, Zara! Welcome 😊
 
 > 🎯 **Result:** Ek hi `greet` tool dono agents ke liye **reuse** hua. Yehi hota hai **reusable tool**.
 
----
 
-## 🏁 Summary (Ek nazar mein):
+
+## 🏁 Summary
 
 | Feature           | Explanation (Urdu + English)                            |
 | ----------------- | ------------------------------------------------------- |
@@ -143,7 +133,4 @@ Agent 2 Output: Hello, Zara! Welcome 😊
 | Kaise banate hain | `@function_tool` use karo, aur agents mein include karo |
 | Fayda kya hai?    | Fast development, less bugs, time saving                |
 
----
 
-Agar chaho to mein iska **full `README.md`** bhi bana sakta hoon with headings and code blocks 💡
-Batao agar chahiye toh.
