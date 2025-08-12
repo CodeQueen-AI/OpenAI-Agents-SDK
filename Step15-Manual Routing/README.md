@@ -1,4 +1,4 @@
-## 📄 **Manual Routing 
+## 📄Manual Routing 
 
 * **English:** A method where the flow of requests or tasks is directed manually by predefined rules or logic instead of automatically deciding.
 * **Urdu:** Aisa tareeqa jisme requests ya tasks ka flow pehle se banaye gaye rules ke zariye manually control kiya jata hai, automatic decide nahi hota.
@@ -46,3 +46,4 @@
 * Manual Routing = **You control where the request goes using fixed rules**.
 * Best for predictable, rule-based flows.
 * Less flexible than automatic routing but more reliable for fixed scenarios
+
