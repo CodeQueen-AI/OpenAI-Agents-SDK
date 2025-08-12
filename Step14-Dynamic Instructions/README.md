@@ -1,13 +1,6 @@
-Zaroor, Code Queen 👑! Neeche complete `README.md` file hai jo tumhare **Reusable Tools with Agents** project ke liye perfect hai. Ye file beginner-friendly hai aur har section explain karta hai simple language mein.
-
----
-
-### 📄 `README.md`
-
-````markdown
 # 🤖 Reusable Tools with OpenAI Agents
 
-This project demonstrates how to build **reusable tools** and connect them with **multiple agents** using the `openai-agents` SDK.
+This project demonstrates how to build **reusable tools** and connect them with **multiple agents** using the `openai-agents` SDK
 
 You’ll learn how to:
 - Create tools that can be reused by different agents
@@ -161,3 +154,4 @@ Agar tum chaho to is README ko GitHub par bhi paste kar sakti ho – it's ready 
 
 Kya tum chahogi ke mai ek aur README banaun jab tum dynamic instructions ya multi-tool chaining wala project complete karo?
 ```
+
