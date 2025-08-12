@@ -1,4 +1,4 @@
-## 📄 **Guardrails — Points**
+## 📄 **Guardrails**
 
 
 * **English:** Rules or boundaries set to control and guide the behavior of a system so it stays safe, correct, and within limits.
@@ -53,3 +53,4 @@
 * Guardrails = **Rules that keep the system safe and correct**.
 * Input Guardrails → Stop bad data from entering.
 * Output Guardrails → Stop bad results from leaving
+
