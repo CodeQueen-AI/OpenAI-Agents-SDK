@@ -3,7 +3,7 @@
 * **English:** Special functions or code blocks that run automatically at specific stages in an agent’s lifecycle.
 * **Urdu:** Wo khaas functions ya code blocks jo agent ke kaam ke mukhtalif marahil par automatically run hote hain
 
-* 
+
 
 ### **2. Why We Use Them**
 
@@ -54,3 +54,4 @@
 
 * Lifecycle Hooks = **Automatic code triggers at specific stages in an agent’s process**
 * They help in customizing, controlling, and automating an agent’s behavior
+
