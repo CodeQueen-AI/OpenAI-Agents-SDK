@@ -1,4 +1,4 @@
-## ✅ What is a Tool?**
+## ✅ What is a Tool?
 
 > **Tool = Ek function ya kaam karne wali cheez jo agent use karta hai kisi specific task ke liye.**
 
@@ -67,5 +67,6 @@ Jaise:
 | `search_wiki(topic)` | Wikipedia search        |
 | `greet(name)`        | Greeting message        |
 | `time_now()`         | Current time batata hai |
+
 
 
