@@ -1,4 +1,4 @@
-# # LLM Context
+#LLM Context
 from agents import Agent , Runner
 from config import config
 import asyncio
@@ -21,25 +21,25 @@ if __name__ == "__main__":
     asyncio.run(main())
 
 # Local Context
-# from agents import Agent , Runner , function_tool , RunContextWrapper
-# import asyncio
-# from config import config
-# from dataclasses import dataclass
+from agents import Agent , Runner , function_tool , RunContextWrapper
+import asyncio
+from config import config
+from dataclasses import dataclass
 
-# @dataclass
-# class UserInfo:
-#     name : str
-#     uid : int
+@dataclass
+class UserInfo:
+     name : str
+     uid : int
 
-# @function_tool
-# async def fetch_user_age(wrapper : RunContextWrapper[UserInfo]) -> str:
-#     return f" {wrapper.context.name} User is 25 Years Old."
+@function_tool
+ async def fetch_user_age(wrapper : RunContextWrapper[UserInfo]) -> str:
+     return f" {wrapper.context.name} User is 25 Years Old"
 
-# async def main():
-#     user_info = UserInfo(name='CodeQueen' , uid=101)
+async def main():
+    user_info = UserInfo(name='CodeQueen' , uid=101)
 
-#     agent = Agent[UserInfo](
-#         name='Assistant',
-#         tools=[fetch_user_age]
-#     )
+     agent = Agent[UserInfo](
+        name='Assistant',
+        tools=[fetch_user_age]
+     )
 
