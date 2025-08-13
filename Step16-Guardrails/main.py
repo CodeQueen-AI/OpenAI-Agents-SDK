@@ -7,19 +7,21 @@ info_agent = Agent(
     instructions="You answer basic questions."
 )
 
-# Guardrail: Only allow short messages
+# Guardrail: Sirf alphabets aur spaces allow
 def input_guardrail(ctx: RunContextWrapper[str], agent: Agent) -> bool:
-    return len(ctx.context) <= 20  # Max 20 characters
+    text = ctx.context
+    return text.replace(" ", "").isalpha()  # True agar sirf letters hain
 
-# User input
-user_message = "Tell me about the bank"
+# User ka message
+user_message = "Hello World"
 
-# Check before running
+# Check guardrail
 if input_guardrail(RunContextWrapper(user_message), info_agent):
     result = Runner.run_sync(info_agent, user_message)
     print(result.final_output)
 else:
-    print("❌ Input too long. Please make it shorter.")
+    print("❌ Invalid input. Only letters allowed.")
+
 
 
 
