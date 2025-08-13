@@ -1,6 +1,6 @@
 # Input Guardrails
 from agents import Agent, Runner, RunContextWrapper
-
+from config import config 
 # Simple agent
 info_agent = Agent(
     name="Info Agent",
@@ -17,10 +17,11 @@ user_message = "Hello World"
 
 # Check guardrail
 if input_guardrail(RunContextWrapper(user_message), info_agent):
-    result = Runner.run_sync(info_agent, user_message)
+    result = Runner.run_sync(info_agent, user_message , run_config=config)
     print(result.final_output)
 else:
     print("❌ Invalid input. Only letters allowed.")
+
 
 
 
