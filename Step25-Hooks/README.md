@@ -61,7 +61,6 @@
      * Custom error handling
      * Alert generation
 
----
 
 ## 3️⃣ Hooks Parameters
 
@@ -84,7 +83,6 @@ Hooks come with **parameters** that give you **access to agent and context infor
 * `result/output` lets you inspect **final agent output**.
 * `from_agent` & `to_agent` help track **handoffs in multi-agent workflows**.
 
----
 
 ## 4️⃣ Hooks Flow
 
@@ -100,7 +98,6 @@ Hooks come with **parameters** that give you **access to agent and context infor
 User Input → [on_before_run] → Agent Execution → [on_tool_call] → [on_after_run] → [on_handoff] → Final Output
 ```
 
----
 
 ## 5️⃣ Benefits of Using Hooks
 
@@ -110,7 +107,6 @@ User Input → [on_before_run] → Agent Execution → [on_tool_call] → [on_af
 * ✅ **Automation** – Automate workflows, multi-agent handoffs, or notifications.
 * ✅ **Error Handling** – Gracefully handle errors and alert administrators.
 
----
 
 ## 6️⃣ Real-World Use Cases
 
@@ -133,16 +129,12 @@ User Input → [on_before_run] → Agent Execution → [on_tool_call] → [on_af
 
    * `on_error`: Send notifications if the agent fails
 
----
 
 ## 7️⃣ Key Takeaways
 
 * Hooks in OpenAI Agents SDK **extend agent functionality without changing core logic**.
 * Parameters provide **full context and control** over agent execution.
-* Using hooks properly allows you to **monitor, validate, automate, and handle errors efficiently**.
+* Using hooks properly allows you to **monitor, validate, automate, and handle errors efficiently**
 
----
 
-If you want, I can also make a **GitHub-ready visually appealing version** in English with **emojis, highlights, and diagrams** so beginners can instantly understand hooks and parameters.
 
-Do you want me to make that version?
