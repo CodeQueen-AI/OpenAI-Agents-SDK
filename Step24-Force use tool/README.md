@@ -1,13 +1,11 @@
 
 
-# CodeQueen Agent – Forcing Tool Example
+# Forcing Tool Example
 
-This repository demonstrates the **Forcing Tool feature** in the **OpenAI Agents SDK**.
 
 A **forcing tool** ensures that the agent uses a **specific tool only**, ignoring its normal decision-making.
 For example, if the agent has access to multiple tools like a calculator, search tool, or translator, you can force it to **only use the calculator** to answer a query.
 
----
 
 ## How It Works
 
@@ -17,7 +15,7 @@ For example, if the agent has access to multiple tools like a calculator, search
 
 This guarantees consistent and accurate responses for tasks that require a particular tool.
 
----
+
 
 ## Use Cases
 
@@ -27,10 +25,11 @@ This guarantees consistent and accurate responses for tasks that require a parti
 
 By forcing the tool, you prevent the agent from making independent decisions about which tool to use, ensuring **reliable and predictable results**.
 
----
+
 
 ## Benefits
 
 * ✅ **Accuracy** – Agent always uses the correct tool.
 * ✅ **Consistency** – Predictable responses every time.
 * ✅ **Efficiency** – Saves time by avoiding trial-and-error tool selection.
+
