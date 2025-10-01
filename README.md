@@ -37,3 +37,9 @@
 🔷 **Agent Events** – Important moments when the agent does something
 
 🔷 **Lifecycle Hooks** – Functions that run automatically at key times during an agent’s work
+
+🔷 **Agents Clone** – A duplicate of an agent that works with the same abilities and behavior
+
+🔷 **Force use tool** – Forcing an agent to always use a specific tool, even if other options are available
+
+🔷 **Hooks** – Functions that let you tap into or extend an agent’s workflow at specific points
